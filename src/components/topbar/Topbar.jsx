@@ -2,7 +2,6 @@ import "./Topbar.css";
 import { useState } from "react";
 import { Search, Person, Chat, Notifications } from "@mui/icons-material";
 import { Menu, MenuItem } from "@mui/material";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { useNavigate } from "react-router-dom";
 
 function Topbar() {

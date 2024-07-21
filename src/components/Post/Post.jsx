@@ -1,10 +1,5 @@
 import "./Post.css";
-import {
-  MoreVert,
-  FavoriteOutlined,
-  FavoriteIcon,
-  FavoriteBorder,
-} from "@mui/icons-material";
+import { MoreVert } from "@mui/icons-material";
 import { Users } from "../../Data";
 import { useState } from "react";
 

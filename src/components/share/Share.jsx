@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 import "./Share.css";
-import { PermMedia, Label, Room, EmojiEmotions } from "@mui/icons-material";
+import { PermMedia, Room, EmojiEmotions } from "@mui/icons-material";
 function Share() {
   const navigate = useNavigate();
 

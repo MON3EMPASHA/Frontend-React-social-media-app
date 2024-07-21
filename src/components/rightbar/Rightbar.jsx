@@ -1,7 +1,6 @@
 import "./Rightbar.css";
 import { Onlines } from "../../Data";
 import Online from "../Online/Online";
-import Profile from "../../pages/Profile/Profile";
 function Rightbar({ Flag }) {
   const HomeRightbar = () => {
     return (
