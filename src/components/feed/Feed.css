@@ -1,0 +1,22 @@
+.feed {
+  flex: 5.5;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.feed .feedWrapper {
+  padding: 20px;
+  outline: none;
+}
+.feed ::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .feed {
+    flex: 20;
+  }
+}/*# sourceMappingURL=Feed.css.map */

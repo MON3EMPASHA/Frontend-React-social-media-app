@@ -1,0 +1,111 @@
+.rightbar {
+  flex: 3.5;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+@media (max-width: 768px) {
+  .rightbar {
+    flex: 0;
+  }
+}
+.rightbar .rightBarWrapper {
+  padding: 20px 20px 0 0;
+}
+.rightbar .rightBarWrapper .birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+.rightbar .rightBarWrapper .birthdayContainer .birthdayImg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.rightbar .rightBarWrapper .birthdayContainer .birthdayText {
+  font-weight: 300;
+  font-size: 15px;
+}
+.rightbar .rightBarWrapper .rightbarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+  max-height: 410px;
+}
+.rightbar .rightBarWrapper .rightbarTitle {
+  margin-bottom: 20px;
+}
+.rightbar .rightBarWrapper .rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.rightbar .rightBarWrapper .rightbarFriendList .rightbarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rightbar .rightBarWrapper .rightbarFriendList .rightbarFriend .rightbarProfileImgContainer {
+  margin-right: 10px;
+  position: relative;
+}
+.rightbar .rightBarWrapper .rightbarFriendList .rightbarFriend .rightbarProfileImgContainer .rightbarProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.rightbar .rightBarWrapper .rightbarFriendList .rightbarFriend .rightbarProfileImgContainer .rightbarOnline {
+  width: 12px;
+  height: 12px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+.rightbar .rightBarWrapper .rightbarFriendList .rightbarFriend .rightbarFriendName {
+  font-weight: 500;
+}
+.rightbar .rightBarWrapper .rightbarTitle {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.rightbar .rightBarWrapper .rightbarInfo {
+  margin-bottom: 30px;
+}
+.rightbar .rightBarWrapper .rightbarInfo .rightbarInfoItem {
+  margin-bottom: 10px;
+}
+.rightbar .rightBarWrapper .rightbarInfo .rightbarInfoItem .rightbarInfoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+.rightbar .rightBarWrapper .rightbarInfo .rightbarInfoItem .rightbarInfoValue {
+  font-weight: 300;
+}
+.rightbar .rightBarWrapper .rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rightbar .rightBarWrapper .rightbarFollowings .rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  cursor: pointer;
+}
+.rightbar .rightBarWrapper .rightbarFollowings .rightbarFollowing .rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+.rightbar .rightBarWrapper .rightbarFollowings .rightbarFollowing .rightbarFollowingName {
+  text-align: center;
+}/*# sourceMappingURL=Rightbar.css.map */
