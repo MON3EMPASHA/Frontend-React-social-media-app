@@ -11,6 +11,7 @@
   height: 70%;
   display: flex;
 }
+
 .login .loginWrapper .loginLeft,
 .login .loginWrapper .loginRight {
   flex: 1;
@@ -75,4 +76,36 @@
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
-}/*# sourceMappingURL=Login.css.map */
+}
+@media only screen and (max-width: 600px) {
+  .login .loginWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .loginBox {
+  }
+  .login .loginWrapper .loginLeft .loginLogo {
+    font-size: 30px;
+  }
+  .login .loginWrapper .loginLeft .loginDesc {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  .login .loginWrapper .loginRight .loginBox .loginInput {
+    width: 120%;
+    margin-left: -20%;
+  }
+  .login .loginWrapper .loginRight .loginBox .loginButton {
+    width: 120%;
+    margin-left: -20%;
+  }
+  .loginForgot {
+    width: 120%;
+    margin-left: -20%;
+  }
+  .login .loginWrapper .loginRight .loginBox .loginRegister {
+    width: 120%;
+    margin-left: -20%;
+  }
+  /*# sourceMappingURL=Login.css.map */
+}
