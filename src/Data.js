@@ -411,7 +411,7 @@ export const MyPosts = [
     userId: 0,
     image: "assets/person/Pyramid.jpg",
     caption:
-      "Where history meets the horizon. The pyramids of Egypt: a timeless testament to human achievement and mystery. 🇪🇬✨ #AncientWonders #EgyptianPyramids",
+      "Where history meets the horizon.🇪🇬✨\n #AncientWonders #EgyptianPyramids",
     likes: 999,
     comments: 99,
     date: "5 mins ago",
