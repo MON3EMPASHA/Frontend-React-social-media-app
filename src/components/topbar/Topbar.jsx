@@ -50,7 +50,6 @@ function Topbar() {
           <span className="topbarLink" onClick={handleHomeClick}>
             Homepage
           </span>
-          <span className="topbarLink">Timeline</span>
         </div>
         <div className="topbarIcons">
           <div className="topbarIconItem">
