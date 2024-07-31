@@ -8,9 +8,6 @@
   z-index: 1000;
 }
 @media (max-width: 768px) {
-  .topbarContainer {
-    width: 128.4%;
-  }
 }
 .topbarContainer .topbarLeft {
   flex: 3;
@@ -24,7 +21,6 @@
 }
 @media only screen and (max-width: 600px) {
   .topbarContainer .topbarLeft .logo {
-    font-size: 11px;
     margin-left: 5px;
   }
 }
