@@ -33,7 +33,7 @@ function Topbar() {
     <div className="topbarContainer">
       <div className="topbarLeft">
         <span className="logo" onClick={handleHomeClick}>
-          Mon3em social
+          Social App
         </span>
       </div>
       <div className="topbarCenter">

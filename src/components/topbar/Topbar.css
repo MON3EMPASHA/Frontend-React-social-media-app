@@ -18,6 +18,12 @@
   color: white;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+  .topbarContainer .topbarLeft .logo {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+}
 .topbarContainer .topbarCenter {
   flex: 5;
 }
@@ -40,6 +46,16 @@
 .topbarContainer .topbarCenter .searchbar .searchInput:focus {
   outline: none;
 }
+@media only screen and (max-width: 800px) {
+  .topbarContainer .topbarCenter .searchbar {
+    width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .topbarContainer .topbarCenter .searchbar .searchInput {
+    width: 50%;
+  }
+}
 .topbarContainer .topbarRight {
   flex: 4;
   display: flex;
@@ -52,7 +68,7 @@
   height: 32px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 .topbarContainer .topbarRight .topbarLinks .topbarLink {
@@ -81,4 +97,4 @@
   align-items: center;
   justify-content: center;
   font-size: 12px;
-}/*# sourceMappingURL=Topbar.css.map */
+} /*# sourceMappingURL=Topbar.css.map */

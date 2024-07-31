@@ -409,8 +409,9 @@ export const MyPosts = [
   {
     id: 1,
     userId: 0,
-    image: "assets/person/Monem.jpeg",
-    caption: " 🤩🤩🤩 وقف الخلق ينظرون جميعا كيف أبنى قواعد المجد وحدى ",
+    image: "assets/person/Pyramid.jpg",
+    caption:
+      "Where history meets the horizon. The pyramids of Egypt: a timeless testament to human achievement and mystery. 🇪🇬✨ #AncientWonders #EgyptianPyramids",
     likes: 999,
     comments: 99,
     date: "5 mins ago",
