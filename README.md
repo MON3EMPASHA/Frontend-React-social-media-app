@@ -1,4 +1,4 @@
-[![Site](https://img.shields.io/badge/Live%20Site-Mon3em%20Currency%20Converter-blue)](https://mon3em-social.netlify.app/)
+[![Site](https://img.shields.io/badge/Live%20Site-Mon3em%Social%App-blue)](https://mon3em-social.netlify.app/)
 
 # Getting Started with Create React App
 
