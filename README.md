@@ -1,4 +1,4 @@
-[![Site](https://img.shields.io/badge/Live%20Site-Mon3em20Social20App-blue)](https://mon3em-social.netlify.app/)
+[![Site](https://img.shields.io/badge/Live%20Site-Mon3em%20Social%20App-blue)](https://mon3em-social.netlify.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
